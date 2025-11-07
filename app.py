@@ -28,7 +28,7 @@ def classify_sentiment_ollama(review_text):
 
     result = llm.invoke(prompt)
 
-    return result[1:]
+    return result
 
 st.title(" Customer Review Sentiment Analyzer")
 # st.title("_Streamlit_ is :blue[cool] :sunglasses:")
